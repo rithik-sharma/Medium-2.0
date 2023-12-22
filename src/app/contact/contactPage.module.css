@@ -1,0 +1,171 @@
+/* .title {
+  background-color: coral;
+  color: white;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.content {
+  display: flex;
+  gap: 50px;
+}
+
+.contactInfo {
+  margin-top: 20px;
+}
+
+.contactInfo h3 {
+  margin-bottom: 5px;
+}
+
+.contactInfo p {
+  margin: 5px 0;
+}
+
+.contactForm {
+  margin-top: 20px;
+}
+
+.contactForm label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.contactForm input,
+.contactForm textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.contactForm button {
+  padding: 8px 15px;
+  background-color: coral;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contactForm button:hover {
+  background-color: #ff6347;
+} */
+
+/* Common styles */
+.container {
+  width: 80%;
+  margin: auto;
+  padding: 50px 0;
+}
+
+/* Header styles */
+.header {
+  background-color: coral;
+  padding: 10px 20px;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.title {
+  font-size: 2.2rem;
+  margin: 0;
+  color: #fff;
+}
+
+/* Content styles */
+.content {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.contactInfo {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.contactInfo div {
+  width: 30%;
+}
+
+.email,
+.phone,
+.address {
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.contactForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  margin-bottom: 10px;
+}
+
+.input,
+.textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.submitBtn {
+  width: 30%;
+  margin-left: auto;
+  padding: 10px;
+  background-color: coral;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submitBtn:hover {
+  background-color: rgb(255, 88, 27);
+}
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+  .container {
+    width: 90%; /* Adjust container width for smaller screens */
+    padding: 30px 0;
+  }
+
+  .header {
+    padding: 15px;
+  }
+
+  .title {
+    font-size: 2rem;
+  }
+
+  .contactInfo div {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .input,
+  .textarea {
+    margin-bottom: 15px;
+  }
+
+  .submitBtn {
+    width: 50%;
+    margin-left: auto;
+  }
+}

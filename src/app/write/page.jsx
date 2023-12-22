@@ -106,20 +106,32 @@ const WritePage = () => {
         className={styles.select}
         onChange={(e) => setCatSlug(e.target.value)}
       >
-        <option value="style">style</option>
-        <option value="fashion">fashion</option>
-        <option value="food">food</option>
-        <option value="culture">culture</option>
-        <option value="travel">travel</option>
-        <option value="coding">coding</option>
+        <option value="style" className={styles.option}>
+          style
+        </option>
+        <option value="fashion" className={styles.option}>
+          fashion
+        </option>
+        <option value="food" className={styles.option}>
+          food
+        </option>
+        <option value="culture" className={styles.option}>
+          culture
+        </option>
+        <option value="travel" className={styles.option}>
+          travel
+        </option>
+        <option value="coding" className={styles.option}>
+          coding
+        </option>
       </select>
       <div className={styles.editor}>
         <button className={styles.button} onClick={() => setOpen(!open)}>
           <Image
             src="/plus.png"
             alt=""
-            width={16}
-            height={16}
+            width={28}
+            height={28}
             className={styles.image}
           />
         </button>
@@ -134,7 +146,7 @@ const WritePage = () => {
             />
             <button className={styles.addButton}>
               <label htmlFor="image">
-                <Image src="/image.png" alt="" width={16} height={16} />
+                <Image src="/image.png" alt="" width={27} height={27} />
               </label>
             </button>
 
@@ -142,8 +154,8 @@ const WritePage = () => {
               <Image
                 src="/external.png"
                 alt=""
-                width={16}
-                height={16}
+                width={28}
+                height={28}
                 className={styles.image}
               />
             </button>
@@ -151,8 +163,8 @@ const WritePage = () => {
               <Image
                 src="/video.png"
                 alt=""
-                width={16}
-                height={16}
+                width={30}
+                height={30}
                 className={styles.image}
               />
             </button>
